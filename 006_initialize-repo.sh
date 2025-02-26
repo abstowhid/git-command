@@ -8,6 +8,8 @@ git clone <repo-url>
 git init
 #====================================
 
+#description:
+
 #note: 1. locate the folder where you need to init or or clone the repo
 #note: BEST PRACTICE: use Vs Code and open the folder where to clone or open the folder where to initialize
 
@@ -45,7 +47,7 @@ parent folder   #=> run ( git init)here only once[this is a repository as it has
             -working folder3
 all repo will have the same .git #(not not not recomended)
 note:once run git init then can't run git init again
-#
+
 #so use init in different parent folder for different repo
 (each parent folder is an indivisual repository(bacause of .git))
 parent folder  
@@ -57,5 +59,4 @@ parent folder
 parent folder
             - .git
             -other files
-
 
