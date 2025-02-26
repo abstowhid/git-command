@@ -4,7 +4,7 @@
 
 #.
 git clone <repo-url>
-#.
+#.or,
 git init
 
 # => locate the folder location
