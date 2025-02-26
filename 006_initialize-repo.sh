@@ -46,6 +46,7 @@ all repo will have the same .git #(not not not recomended)
 note:once run git init then can't run git init again
 #
 #so use init in different parent folder for different repo
+(each parent folder is an indivisual repository(bacause of .git))
 parent folder  
             - .git
             -other files
