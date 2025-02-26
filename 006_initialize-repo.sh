@@ -39,11 +39,11 @@ init BEST PRACTICE: run git init in different folder for different project only 
 #it make the .git folder at the same folder where we run the command
 #means the parent folder will have the .git (remember ,we can not initilize a git again after once)
 
-parent folder   #=> run ( git init)here only once
+parent folder   #=> run ( git init)here only once[this is a repository as it has it's own .git]
             - .git
-            -repository1
-            -repository2
-            -repository3
+            -working folder1
+            -working folder2
+            -working folder3
 all repo will have the same .git #(not not not recomended)
 note:once run git init then can't run git init again
 #
