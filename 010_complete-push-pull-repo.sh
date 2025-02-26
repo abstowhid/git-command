@@ -2,11 +2,6 @@
 #there is two way to initialize a git repository
 #1. clone an existing repo,  2. init an local repo
 
-#.
-git clone <repo-url>
-#.or,
-git init
-
 # => locate the folder location
 #1. walkthrough 
 git clone <repo_url>    # Clone an existing repository 
