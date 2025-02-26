@@ -5,7 +5,6 @@ git clone <repo-url>
 #2. init=> only once in a folder
 git init
 #====================================
-
 #note: 1. locate the folder where you need to init or or clone the repo
 #note: to do that use cd in the terminal or manually open bash on the folder
 #note: BEST PRACTICE: use Vs Code and open the folder where to clone or open the folder where to initialize

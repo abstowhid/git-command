@@ -2,7 +2,7 @@
 #2. local repository
 # a repository is a folder that has a .git hidden file
 # each repository contain only 1 .git file
-# try to create or merge multiple .git(by init,pull or clone) it will be an Error
+# if try to create or merge multiple .git(by init,pull or clone) it will be an Error
 #error name: unrelated history(cause each .git has different commit history)
 
 #to make a git repository we need to initialize git on that folder (for local)
