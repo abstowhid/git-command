@@ -1,14 +1,14 @@
-#there is two way to initialize a repo 
-#1. clone a existing repo    2. init(create) a local repo
-#1. clone=> each time a new
+#there is two way to initialize a repo locally
+#1. clone a existing remote repo    2. init(create) a local repo
+#1. clone=> clone the repo as a child
 git clone <repo-url>
-#2. init=> only once in a folder
+#2. init=> directly create repo just there
 git init
 #====================================
-
 #note: 1. locate the folder where you need to init or or clone the repo
 #note: to do that use cd in the terminal or manually open bash on the folder
 #note: BEST PRACTICE: use Vs Code and open the folder where to clone or open the folder where to initialize
+
 
 #difference:
 #1.
@@ -42,7 +42,18 @@ parent folder   #=> run ( git init)here only once
             -repository1
             -repository2
             -repository3
-all repo will have the same .git #(but once)
+all repo will have the same .git #(not not not recomended)
 note:once run git init then can't run git init again
+#
+#so use init in different parent folder for different repo
+parent folder  
+            - .git
+            -other files
+parent folder
+            - .git
+            other files
+parent folder
+            - .git
+            -other files
 
 
