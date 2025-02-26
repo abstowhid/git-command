@@ -1,3 +1,5 @@
+#introduction:
+
 #there is two way to initialize a repo locally
 #1. clone a existing remote repo    2. init(create) a local repo
 #1. clone=> clone the repo as a child
@@ -5,17 +7,17 @@ git clone <repo-url>
 #2. init=> directly create repo just there
 git init
 #====================================
-#note: 1. locate the folder where you need to init or or clone the repo
-#note: to do that use cd in the terminal or manually open bash on the folder
-#note: BEST PRACTICE: use Vs Code and open the folder where to clone or open the folder where to initialize
+#Description:
 
+#note: 1. locate the folder where you need to init or or clone the repo
+#note: BEST PRACTICE: use Vs Code and open the folder where to clone or open the folder where to initialize
 
 #difference:
 #1.
 git clone <repo-url>
 clone BEST PRACTICE: can run in same or any folder with no limitation times.
-#it clone the whole repository(folder) and the .git lies inside the cloned repository not in the parent
-#we can clone more repo at the same parent folder and each cloned repository will have it's own .git(a own indivisual repository as a child)
+# => as repos is already created remotely then it has it's own .git
+# => by cloning, we clone the whole repo as a child so every child(repo folder) has it's own .git,files indivisually
 
 parent folder    #=> run( git clone <repo-url> )here again and again
             first cloned repository
