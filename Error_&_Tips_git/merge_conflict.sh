@@ -62,5 +62,7 @@ solution:
             Remote:
                 1.locally changed code
 => now both has a same line of code.
+=>now merge it
+=>push it
 =>solved
 
